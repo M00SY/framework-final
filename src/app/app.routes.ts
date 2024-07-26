@@ -7,7 +7,7 @@ import { GallaryComponent } from './gallery/gallary.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 export const routes: Routes = [
-    { path : "", redirectTo : 'home', pathMatch : 'full'},
+    { path : "",redirectTo :'home', pathMatch :'full'},
     {path : 'home', component : HomeComponent},
     {path : 'about',component : AboutComponent},
 
